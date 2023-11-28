@@ -284,7 +284,7 @@ document.body.classList.add("dark-theme");
 
   
 ## Contributions:
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please [Open New Issue](https://github.com/Mena-Rossini/count_down_timer/issues/new) or submit a pull request.
 
 ## License:
 This project is licensed under the MIT License
