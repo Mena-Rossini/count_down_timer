@@ -1,5 +1,5 @@
 let timer;
-let time = 0; // Initial time in seconds (5 minutes)
+let time = 0; // Initial time in seconds (0 minutes)
 let countdownActive = false;
 
 function updateTimer() {
@@ -50,7 +50,7 @@ function stopTimer() {
 function resetTimer() {
   stopTimer();
   document.getElementById("timeInput").value = 0; // Reset input field to default value
-  time = 0; // Reset time to 5 minutes
+  time = 0; // Reset time to 0 minutes
   updateTimer();
   document.getElementById("message").style.display = "none";
 }
