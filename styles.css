@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: scroll;
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  font-size: 2vw; /* Adjust the size as needed */
+  margin-right: 30px;
+}
+
+.input-container input {
+  font-size: 2vw; /* Adjust the size as needed */
+  padding: 10px;
+  width: 200px; /* Adjust the width as needed */
+}
+
+.input-container button {
+  font-size: 2vw; /* Adjust the size as needed */
+  margin-left: 20px;
+  padding: 15px;
+  margin-left: 50px;
+}
+
+.button-container button {
+  font-size: 2vw; /* Adjust the size as needed */
+  margin: 20px;
+  padding: 10px;
+}
+
+#timer {
+  font-size: 7vw; /* Adjust the size as needed */
+  margin-bottom: 20px;
+  color: #0f0;
+}
+
+button {
+  font-size: 1vw; /* Adjust the size as needed */
+  margin: 5px;
+  padding: 2px 16px;
+  cursor: pointer;
+  background-color: #0f0; /* Neon green */
+  color: #000; /* Black text */
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #0f0, 0 0 25px #0f0;
+  transition: transform 0.3s ease-in-out;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 5px #0f0, 0 0 25px #0f0, 0 0 50px #0f0, 0 0 100px #0f0,
+    0 0 200px #0f0;
+}
+
+label {
+  font-size: 3vw; /* Adjust the size as needed */
+  margin-right: 5px;
+}
+
+input {
+  font-size: 1em;
+  margin: 10px;
+  padding: 8px;
+  border: 2px solid #0f0; /* Neon green border */
+  border-radius: 5px;
+  background-color: #000; /* Black background */
+  color: #0f0; /* Neon green text */
+}
+
+#message {
+  font-size: 9vw; /* Adjust the size as needed */
+  margin-top: 30px;
+  color: rgb(156, 162, 156);
+  display: none;
+}
+
+/* Add styles for the glowing and moving ghost-like theme toggle button */
+#themeToggle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 0); /* Neon  */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(0, 255, 0), 0 0 20px rgb(0, 255, 0),
+    0 0 30px rgb(0, 255, 0);
+  opacity: 0.7;
+}
+#themeToggle:hover {
+  animation: ghosting 2s infinite;
+  opacity: 1;
+}
+@keyframes ghosting {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgb(0, 255, 0), 0 0 20px rgb(0, 255, 0),
+      0 0 30px rgb(0, 255, 0);
+    transform: translateY(0);
+  }
+  50% {
+    box-shadow: 0 0 20px rgb(0, 255, 0), 0 0 30px rgb(0, 255, 0),
+      0 0 40px rgb(0, 255, 0);
+    transform: translateY(-4px);
+  }
+}
+/* Hide the theme toggle button text */
+#themeToggle span {
+  display: none;
+}
+/* Add dark theme styles */
+body.dark-theme {
+  background-color: #000; /* Black background */
+  color: #0f0; /* Neon green text */
+}
+/* Add light theme styles */
+body.light-theme {
+  background-color: #f3eeee; /* Black background */
+  color: #0f0; /* Neon green text */
+}
