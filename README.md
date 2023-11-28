@@ -1,4 +1,4 @@
-# TECHNO HACKS PROJECT 1 - Count_Down_Timer
+# TECHNOHACKS PROJECT 1 - Count_Down_Timer
 ## OVERVIEW : 
 The Countdown Timer is a simple and customizable web application that allows users to set, start, stop, reset, and restart countdowns. Whether you need to manage your time during tasks, set reminders, or organize events, this timer provides a user-friendly solution.
 ## FEATURES :
