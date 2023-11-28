@@ -271,11 +271,11 @@ document.body.classList.add("dark-theme");
 ![2023-11-28](https://github.com/Mena-Rossini/count_down_timer/assets/102855266/358ffccd-7f1e-45ae-aed2-c3d6fb7647b7)
 
   
-** WITH INPUTS :**
+**WITH INPUTS :**
 ![2023-11-28 (1)](https://github.com/Mena-Rossini/count_down_timer/assets/102855266/59ba6fe6-8b23-4cc8-a7bc-2d4dcc7c9dea)
 
   
-** TIME'S UP !! :**
+**TIME'S UP !! :**
 ![2023-11-28 (3)](https://github.com/Mena-Rossini/count_down_timer/assets/102855266/f8caba17-6ec6-4858-94f6-ffe25c24f9c3)
 
 ### WHITE MODE :
@@ -283,4 +283,8 @@ document.body.classList.add("dark-theme");
 ![2023-11-28 (4)](https://github.com/Mena-Rossini/count_down_timer/assets/102855266/64885e76-db3f-42f3-b9e9-1a6b30a9fd30)
 
   
-## Contributions :
+## Contributions:
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License:
+This project is licensed under the MIT License
