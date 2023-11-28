@@ -267,7 +267,7 @@ document.body.classList.add("dark-theme");
 ## WEBPAGE :
 
 ### DARK MODE :
-** BASIC OUTLINE :**
+ **BASIC OUTLINE :**
 ![2023-11-28](https://github.com/Mena-Rossini/count_down_timer/assets/102855266/358ffccd-7f1e-45ae-aed2-c3d6fb7647b7)
 
   
@@ -276,7 +276,6 @@ document.body.classList.add("dark-theme");
 
   
 ** TIME'S UP !! :**
-
 ![2023-11-28 (3)](https://github.com/Mena-Rossini/count_down_timer/assets/102855266/f8caba17-6ec6-4858-94f6-ffe25c24f9c3)
 
 ### WHITE MODE :
